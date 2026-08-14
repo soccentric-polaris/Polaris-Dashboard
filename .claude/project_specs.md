@@ -1,4 +1,4 @@
-# Polaris-Dashboard — specs Remote: `git@github.com:SiliconCentric/Polaris-Dashboard.git`
+# Polaris-Dashboard — specs Remote: `git@github.com:soccentric-polaris/Polaris-Dashboard.git`
 Stack: node. A standalone dashboard UI leaf. Runs anywhere; not part of the on-device image. ## Layout * `webui/` — Next.js app-router frontend. Has its own `package.json`, separate from the root one.
 * `contract-tests/` — pytest suite with its own Makefile. Python, not JS.
 * `docker/` — packaging. ## Coupling * **Not proto-coupled to Polaris-HAL.** Reads from Polaris-Server over HTTP/SSE.
